@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
+//Components
+import Slideshow from "./Slideshow";
 
 const Body = () => {
     return(
         <div>
-            <h1>BODY</h1>
+
+            <Slideshow />
         </div>
     );
 };
