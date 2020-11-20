@@ -1,0 +1,23 @@
+.player {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: teal;
+}
+
+.time-control {
+    width: 50%;
+    display: flex;
+    color: white;
+}
+
+.play-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 30%;
+    color: black;
+}
